@@ -120,6 +120,7 @@ Pod::Spec.new do |s|
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
+   s.dependency "MBProgressHUD"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -131,6 +132,5 @@ Pod::Spec.new do |s|
    s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-   s.dependency "MBProgressHUD"
 
 end
