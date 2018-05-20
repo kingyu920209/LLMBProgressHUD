@@ -15,8 +15,8 @@
 		0CDFCE0120B15E1C00074C1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFCE0020B15E1C00074C1E /* main.m */; };
 		0CDFCE0B20B15E1C00074C1E /* LLMBProgressHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFCE0A20B15E1C00074C1E /* LLMBProgressHUDTests.m */; };
 		0CDFCE1620B15E1C00074C1E /* LLMBProgressHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFCE1520B15E1C00074C1E /* LLMBProgressHUDUITests.m */; };
-		0CDFCE2720B15F8800074C1E /* MBProgressHUD+LLMB.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFCE2420B15F8800074C1E /* MBProgressHUD+LLMB.m */; };
-		0CDFCE2820B15F8800074C1E /* MBProgressHUD+LLMB.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0CDFCE2620B15F8800074C1E /* MBProgressHUD+LLMB.bundle */; };
+		0CDFCE2D20B17ADD00074C1E /* MBProgressHUD+LLMB.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFCE2A20B17ADD00074C1E /* MBProgressHUD+LLMB.m */; };
+		0CDFCE2E20B17ADD00074C1E /* MBProgressHUD+LLMB.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0CDFCE2C20B17ADD00074C1E /* MBProgressHUD+LLMB.bundle */; };
 		5E43D5A6DAEFF4D06DB1BF50 /* libPods-LLMBProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E90F4A49A27DF682448D6794 /* libPods-LLMBProgressHUD.a */; };
 /* End PBXBuildFile section */
 
@@ -54,9 +54,9 @@
 		0CDFCE1120B15E1C00074C1E /* LLMBProgressHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLMBProgressHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CDFCE1520B15E1C00074C1E /* LLMBProgressHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLMBProgressHUDUITests.m; sourceTree = "<group>"; };
 		0CDFCE1720B15E1C00074C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0CDFCE2420B15F8800074C1E /* MBProgressHUD+LLMB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+LLMB.m"; sourceTree = "<group>"; };
-		0CDFCE2520B15F8800074C1E /* MBProgressHUD+LLMB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LLMB.h"; sourceTree = "<group>"; };
-		0CDFCE2620B15F8800074C1E /* MBProgressHUD+LLMB.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "MBProgressHUD+LLMB.bundle"; sourceTree = "<group>"; };
+		0CDFCE2A20B17ADD00074C1E /* MBProgressHUD+LLMB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+LLMB.m"; sourceTree = "<group>"; };
+		0CDFCE2B20B17ADD00074C1E /* MBProgressHUD+LLMB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LLMB.h"; sourceTree = "<group>"; };
+		0CDFCE2C20B17ADD00074C1E /* MBProgressHUD+LLMB.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "MBProgressHUD+LLMB.bundle"; sourceTree = "<group>"; };
 		E90F4A49A27DF682448D6794 /* libPods-LLMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLMBProgressHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F13D52D316D067441BAFB04B /* Pods-LLMBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLMBProgressHUD.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLMBProgressHUD/Pods-LLMBProgressHUD.release.xcconfig"; sourceTree = "<group>"; };
 		F5EE9EE084C7EA3513F3AAE0 /* Pods-LLMBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLMBProgressHUD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLMBProgressHUD/Pods-LLMBProgressHUD.debug.xcconfig"; sourceTree = "<group>"; };
@@ -91,6 +91,7 @@
 		0CDFCDE520B15E1A00074C1E = {
 			isa = PBXGroup;
 			children = (
+				0CDFCE2920B17ADD00074C1E /* MBProgressHUD+LLMB */,
 				0CDFCDF020B15E1A00074C1E /* LLMBProgressHUD */,
 				0CDFCE0920B15E1C00074C1E /* LLMBProgressHUDTests */,
 				0CDFCE1420B15E1C00074C1E /* LLMBProgressHUDUITests */,
@@ -113,7 +114,6 @@
 		0CDFCDF020B15E1A00074C1E /* LLMBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				0CDFCE2320B15F8800074C1E /* LLMBProgress */,
 				0CDFCDF120B15E1A00074C1E /* AppDelegate.h */,
 				0CDFCDF220B15E1A00074C1E /* AppDelegate.m */,
 				0CDFCDF420B15E1A00074C1E /* ViewController.h */,
@@ -145,14 +145,14 @@
 			path = LLMBProgressHUDUITests;
 			sourceTree = "<group>";
 		};
-		0CDFCE2320B15F8800074C1E /* LLMBProgress */ = {
+		0CDFCE2920B17ADD00074C1E /* MBProgressHUD+LLMB */ = {
 			isa = PBXGroup;
 			children = (
-				0CDFCE2420B15F8800074C1E /* MBProgressHUD+LLMB.m */,
-				0CDFCE2520B15F8800074C1E /* MBProgressHUD+LLMB.h */,
-				0CDFCE2620B15F8800074C1E /* MBProgressHUD+LLMB.bundle */,
+				0CDFCE2A20B17ADD00074C1E /* MBProgressHUD+LLMB.m */,
+				0CDFCE2B20B17ADD00074C1E /* MBProgressHUD+LLMB.h */,
+				0CDFCE2C20B17ADD00074C1E /* MBProgressHUD+LLMB.bundle */,
 			);
-			path = LLMBProgress;
+			path = "MBProgressHUD+LLMB";
 			sourceTree = "<group>";
 		};
 		18146AF71DE37F9508858BF9 /* Frameworks */ = {
@@ -276,7 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CDFCE2820B15F8800074C1E /* MBProgressHUD+LLMB.bundle in Resources */,
+				0CDFCE2E20B17ADD00074C1E /* MBProgressHUD+LLMB.bundle in Resources */,
 				0CDFCDFE20B15E1C00074C1E /* LaunchScreen.storyboard in Resources */,
 				0CDFCDFB20B15E1C00074C1E /* Assets.xcassets in Resources */,
 				0CDFCDF920B15E1A00074C1E /* Main.storyboard in Resources */,
@@ -327,7 +327,7 @@
 			files = (
 				0CDFCDF620B15E1A00074C1E /* ViewController.m in Sources */,
 				0CDFCE0120B15E1C00074C1E /* main.m in Sources */,
-				0CDFCE2720B15F8800074C1E /* MBProgressHUD+LLMB.m in Sources */,
+				0CDFCE2D20B17ADD00074C1E /* MBProgressHUD+LLMB.m in Sources */,
 				0CDFCDF320B15E1A00074C1E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
