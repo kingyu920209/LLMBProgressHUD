@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "LLMBProgress/MBProgressHUD+LLMB/*.{h,m}"
+  s.source_files  = "LLMBProgressHUD/LLMBProgress/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -105,7 +105,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "LLMBProgress/MBProgressHUD+LLMB.bundle"
+  s.resources = "LLMBProgressHUD/LLMBProgress/MBProgressHUD+LLMB.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
