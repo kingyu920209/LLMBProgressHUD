@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "MBProgressHUD+LLMB.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [MBProgressHUD showCustomMessage:@"111" type:(BWMMBProgressHUDMsgTypeSuccessful) isWindow:NO timer:2 completion:^{
+        NSLog(@"1");
+    }];
+
     // Do any additional setup after loading the view, typically from a nib.
 }
 

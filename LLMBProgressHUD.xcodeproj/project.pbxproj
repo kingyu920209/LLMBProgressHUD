@@ -15,6 +15,9 @@
 		0CDFCE0120B15E1C00074C1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFCE0020B15E1C00074C1E /* main.m */; };
 		0CDFCE0B20B15E1C00074C1E /* LLMBProgressHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFCE0A20B15E1C00074C1E /* LLMBProgressHUDTests.m */; };
 		0CDFCE1620B15E1C00074C1E /* LLMBProgressHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFCE1520B15E1C00074C1E /* LLMBProgressHUDUITests.m */; };
+		0CDFCE2720B15F8800074C1E /* MBProgressHUD+LLMB.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFCE2420B15F8800074C1E /* MBProgressHUD+LLMB.m */; };
+		0CDFCE2820B15F8800074C1E /* MBProgressHUD+LLMB.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0CDFCE2620B15F8800074C1E /* MBProgressHUD+LLMB.bundle */; };
+		5E43D5A6DAEFF4D06DB1BF50 /* libPods-LLMBProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E90F4A49A27DF682448D6794 /* libPods-LLMBProgressHUD.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		0CDFCE1120B15E1C00074C1E /* LLMBProgressHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLMBProgressHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CDFCE1520B15E1C00074C1E /* LLMBProgressHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLMBProgressHUDUITests.m; sourceTree = "<group>"; };
 		0CDFCE1720B15E1C00074C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CDFCE2420B15F8800074C1E /* MBProgressHUD+LLMB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+LLMB.m"; sourceTree = "<group>"; };
+		0CDFCE2520B15F8800074C1E /* MBProgressHUD+LLMB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LLMB.h"; sourceTree = "<group>"; };
+		0CDFCE2620B15F8800074C1E /* MBProgressHUD+LLMB.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "MBProgressHUD+LLMB.bundle"; sourceTree = "<group>"; };
+		E90F4A49A27DF682448D6794 /* libPods-LLMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLMBProgressHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13D52D316D067441BAFB04B /* Pods-LLMBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLMBProgressHUD.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLMBProgressHUD/Pods-LLMBProgressHUD.release.xcconfig"; sourceTree = "<group>"; };
+		F5EE9EE084C7EA3513F3AAE0 /* Pods-LLMBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLMBProgressHUD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLMBProgressHUD/Pods-LLMBProgressHUD.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E43D5A6DAEFF4D06DB1BF50 /* libPods-LLMBProgressHUD.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +95,8 @@
 				0CDFCE0920B15E1C00074C1E /* LLMBProgressHUDTests */,
 				0CDFCE1420B15E1C00074C1E /* LLMBProgressHUDUITests */,
 				0CDFCDEF20B15E1A00074C1E /* Products */,
+				350578BD9603A94A4643DA2C /* Pods */,
+				18146AF71DE37F9508858BF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +113,7 @@
 		0CDFCDF020B15E1A00074C1E /* LLMBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
+				0CDFCE2320B15F8800074C1E /* LLMBProgress */,
 				0CDFCDF120B15E1A00074C1E /* AppDelegate.h */,
 				0CDFCDF220B15E1A00074C1E /* AppDelegate.m */,
 				0CDFCDF420B15E1A00074C1E /* ViewController.h */,
@@ -132,6 +145,33 @@
 			path = LLMBProgressHUDUITests;
 			sourceTree = "<group>";
 		};
+		0CDFCE2320B15F8800074C1E /* LLMBProgress */ = {
+			isa = PBXGroup;
+			children = (
+				0CDFCE2420B15F8800074C1E /* MBProgressHUD+LLMB.m */,
+				0CDFCE2520B15F8800074C1E /* MBProgressHUD+LLMB.h */,
+				0CDFCE2620B15F8800074C1E /* MBProgressHUD+LLMB.bundle */,
+			);
+			path = LLMBProgress;
+			sourceTree = "<group>";
+		};
+		18146AF71DE37F9508858BF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E90F4A49A27DF682448D6794 /* libPods-LLMBProgressHUD.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		350578BD9603A94A4643DA2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5EE9EE084C7EA3513F3AAE0 /* Pods-LLMBProgressHUD.debug.xcconfig */,
+				F13D52D316D067441BAFB04B /* Pods-LLMBProgressHUD.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CDFCE1A20B15E1C00074C1E /* Build configuration list for PBXNativeTarget "LLMBProgressHUD" */;
 			buildPhases = (
+				8485612B742B8CED900E0A13 /* [CP] Check Pods Manifest.lock */,
 				0CDFCDEA20B15E1A00074C1E /* Sources */,
 				0CDFCDEB20B15E1A00074C1E /* Frameworks */,
 				0CDFCDEC20B15E1A00074C1E /* Resources */,
@@ -235,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CDFCE2820B15F8800074C1E /* MBProgressHUD+LLMB.bundle in Resources */,
 				0CDFCDFE20B15E1C00074C1E /* LaunchScreen.storyboard in Resources */,
 				0CDFCDFB20B15E1C00074C1E /* Assets.xcassets in Resources */,
 				0CDFCDF920B15E1A00074C1E /* Main.storyboard in Resources */,
@@ -257,6 +299,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8485612B742B8CED900E0A13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LLMBProgressHUD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0CDFCDEA20B15E1A00074C1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +327,7 @@
 			files = (
 				0CDFCDF620B15E1A00074C1E /* ViewController.m in Sources */,
 				0CDFCE0120B15E1C00074C1E /* main.m in Sources */,
+				0CDFCE2720B15F8800074C1E /* MBProgressHUD+LLMB.m in Sources */,
 				0CDFCDF320B15E1A00074C1E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +495,7 @@
 		};
 		0CDFCE1B20B15E1C00074C1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5EE9EE084C7EA3513F3AAE0 /* Pods-LLMBProgressHUD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +513,7 @@
 		};
 		0CDFCE1C20B15E1C00074C1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F13D52D316D067441BAFB04B /* Pods-LLMBProgressHUD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
