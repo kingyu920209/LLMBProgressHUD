@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CDFCDF320B15E1A00074C1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFCDF220B15E1A00074C1E /* AppDelegate.m */; };
+		0CDFCDF620B15E1A00074C1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFCDF520B15E1A00074C1E /* ViewController.m */; };
+		0CDFCDF920B15E1A00074C1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CDFCDF720B15E1A00074C1E /* Main.storyboard */; };
+		0CDFCDFB20B15E1C00074C1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CDFCDFA20B15E1C00074C1E /* Assets.xcassets */; };
+		0CDFCDFE20B15E1C00074C1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CDFCDFC20B15E1C00074C1E /* LaunchScreen.storyboard */; };
+		0CDFCE0120B15E1C00074C1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFCE0020B15E1C00074C1E /* main.m */; };
+		0CDFCE0B20B15E1C00074C1E /* LLMBProgressHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFCE0A20B15E1C00074C1E /* LLMBProgressHUDTests.m */; };
+		0CDFCE1620B15E1C00074C1E /* LLMBProgressHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFCE1520B15E1C00074C1E /* LLMBProgressHUDUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CDFCE0720B15E1C00074C1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CDFCDE620B15E1A00074C1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CDFCDED20B15E1A00074C1E;
+			remoteInfo = LLMBProgressHUD;
+		};
+		0CDFCE1220B15E1C00074C1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CDFCDE620B15E1A00074C1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CDFCDED20B15E1A00074C1E;
+			remoteInfo = LLMBProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CDFCDEE20B15E1A00074C1E /* LLMBProgressHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLMBProgressHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CDFCDF120B15E1A00074C1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0CDFCDF220B15E1A00074C1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0CDFCDF420B15E1A00074C1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0CDFCDF520B15E1A00074C1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0CDFCDF820B15E1A00074C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CDFCDFA20B15E1C00074C1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CDFCDFD20B15E1C00074C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CDFCDFF20B15E1C00074C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CDFCE0020B15E1C00074C1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0CDFCE0620B15E1C00074C1E /* LLMBProgressHUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLMBProgressHUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CDFCE0A20B15E1C00074C1E /* LLMBProgressHUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLMBProgressHUDTests.m; sourceTree = "<group>"; };
+		0CDFCE0C20B15E1C00074C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CDFCE1120B15E1C00074C1E /* LLMBProgressHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLMBProgressHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CDFCE1520B15E1C00074C1E /* LLMBProgressHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLMBProgressHUDUITests.m; sourceTree = "<group>"; };
+		0CDFCE1720B15E1C00074C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CDFCDEB20B15E1A00074C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CDFCE0320B15E1C00074C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CDFCE0E20B15E1C00074C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CDFCDE520B15E1A00074C1E = {
+			isa = PBXGroup;
+			children = (
+				0CDFCDF020B15E1A00074C1E /* LLMBProgressHUD */,
+				0CDFCE0920B15E1C00074C1E /* LLMBProgressHUDTests */,
+				0CDFCE1420B15E1C00074C1E /* LLMBProgressHUDUITests */,
+				0CDFCDEF20B15E1A00074C1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CDFCDEF20B15E1A00074C1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CDFCDEE20B15E1A00074C1E /* LLMBProgressHUD.app */,
+				0CDFCE0620B15E1C00074C1E /* LLMBProgressHUDTests.xctest */,
+				0CDFCE1120B15E1C00074C1E /* LLMBProgressHUDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CDFCDF020B15E1A00074C1E /* LLMBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				0CDFCDF120B15E1A00074C1E /* AppDelegate.h */,
+				0CDFCDF220B15E1A00074C1E /* AppDelegate.m */,
+				0CDFCDF420B15E1A00074C1E /* ViewController.h */,
+				0CDFCDF520B15E1A00074C1E /* ViewController.m */,
+				0CDFCDF720B15E1A00074C1E /* Main.storyboard */,
+				0CDFCDFA20B15E1C00074C1E /* Assets.xcassets */,
+				0CDFCDFC20B15E1C00074C1E /* LaunchScreen.storyboard */,
+				0CDFCDFF20B15E1C00074C1E /* Info.plist */,
+				0CDFCE0020B15E1C00074C1E /* main.m */,
+			);
+			path = LLMBProgressHUD;
+			sourceTree = "<group>";
+		};
+		0CDFCE0920B15E1C00074C1E /* LLMBProgressHUDTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CDFCE0A20B15E1C00074C1E /* LLMBProgressHUDTests.m */,
+				0CDFCE0C20B15E1C00074C1E /* Info.plist */,
+			);
+			path = LLMBProgressHUDTests;
+			sourceTree = "<group>";
+		};
+		0CDFCE1420B15E1C00074C1E /* LLMBProgressHUDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0CDFCE1520B15E1C00074C1E /* LLMBProgressHUDUITests.m */,
+				0CDFCE1720B15E1C00074C1E /* Info.plist */,
+			);
+			path = LLMBProgressHUDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CDFCDED20B15E1A00074C1E /* LLMBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CDFCE1A20B15E1C00074C1E /* Build configuration list for PBXNativeTarget "LLMBProgressHUD" */;
+			buildPhases = (
+				0CDFCDEA20B15E1A00074C1E /* Sources */,
+				0CDFCDEB20B15E1A00074C1E /* Frameworks */,
+				0CDFCDEC20B15E1A00074C1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLMBProgressHUD;
+			productName = LLMBProgressHUD;
+			productReference = 0CDFCDEE20B15E1A00074C1E /* LLMBProgressHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CDFCE0520B15E1C00074C1E /* LLMBProgressHUDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CDFCE1D20B15E1C00074C1E /* Build configuration list for PBXNativeTarget "LLMBProgressHUDTests" */;
+			buildPhases = (
+				0CDFCE0220B15E1C00074C1E /* Sources */,
+				0CDFCE0320B15E1C00074C1E /* Frameworks */,
+				0CDFCE0420B15E1C00074C1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CDFCE0820B15E1C00074C1E /* PBXTargetDependency */,
+			);
+			name = LLMBProgressHUDTests;
+			productName = LLMBProgressHUDTests;
+			productReference = 0CDFCE0620B15E1C00074C1E /* LLMBProgressHUDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0CDFCE1020B15E1C00074C1E /* LLMBProgressHUDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CDFCE2020B15E1C00074C1E /* Build configuration list for PBXNativeTarget "LLMBProgressHUDUITests" */;
+			buildPhases = (
+				0CDFCE0D20B15E1C00074C1E /* Sources */,
+				0CDFCE0E20B15E1C00074C1E /* Frameworks */,
+				0CDFCE0F20B15E1C00074C1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CDFCE1320B15E1C00074C1E /* PBXTargetDependency */,
+			);
+			name = LLMBProgressHUDUITests;
+			productName = LLMBProgressHUDUITests;
+			productReference = 0CDFCE1120B15E1C00074C1E /* LLMBProgressHUDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CDFCDE620B15E1A00074C1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "嘚嘚以嘚嘚";
+				TargetAttributes = {
+					0CDFCDED20B15E1A00074C1E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					0CDFCE0520B15E1C00074C1E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0CDFCDED20B15E1A00074C1E;
+					};
+					0CDFCE1020B15E1C00074C1E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0CDFCDED20B15E1A00074C1E;
+					};
+				};
+			};
+			buildConfigurationList = 0CDFCDE920B15E1A00074C1E /* Build configuration list for PBXProject "LLMBProgressHUD" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CDFCDE520B15E1A00074C1E;
+			productRefGroup = 0CDFCDEF20B15E1A00074C1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CDFCDED20B15E1A00074C1E /* LLMBProgressHUD */,
+				0CDFCE0520B15E1C00074C1E /* LLMBProgressHUDTests */,
+				0CDFCE1020B15E1C00074C1E /* LLMBProgressHUDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CDFCDEC20B15E1A00074C1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CDFCDFE20B15E1C00074C1E /* LaunchScreen.storyboard in Resources */,
+				0CDFCDFB20B15E1C00074C1E /* Assets.xcassets in Resources */,
+				0CDFCDF920B15E1A00074C1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CDFCE0420B15E1C00074C1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CDFCE0F20B15E1C00074C1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CDFCDEA20B15E1A00074C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CDFCDF620B15E1A00074C1E /* ViewController.m in Sources */,
+				0CDFCE0120B15E1C00074C1E /* main.m in Sources */,
+				0CDFCDF320B15E1A00074C1E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CDFCE0220B15E1C00074C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CDFCE0B20B15E1C00074C1E /* LLMBProgressHUDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CDFCE0D20B15E1C00074C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CDFCE1620B15E1C00074C1E /* LLMBProgressHUDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CDFCE0820B15E1C00074C1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CDFCDED20B15E1A00074C1E /* LLMBProgressHUD */;
+			targetProxy = 0CDFCE0720B15E1C00074C1E /* PBXContainerItemProxy */;
+		};
+		0CDFCE1320B15E1C00074C1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CDFCDED20B15E1A00074C1E /* LLMBProgressHUD */;
+			targetProxy = 0CDFCE1220B15E1C00074C1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0CDFCDF720B15E1A00074C1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CDFCDF820B15E1A00074C1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CDFCDFC20B15E1C00074C1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CDFCDFD20B15E1C00074C1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CDFCE1820B15E1C00074C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0CDFCE1920B15E1C00074C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CDFCE1B20B15E1C00074C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4DH3KVRGU;
+				INFOPLIST_FILE = LLMBProgressHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.text.LLMBProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CDFCE1C20B15E1C00074C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4DH3KVRGU;
+				INFOPLIST_FILE = LLMBProgressHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.text.LLMBProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0CDFCE1E20B15E1C00074C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4DH3KVRGU;
+				INFOPLIST_FILE = LLMBProgressHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.text.LLMBProgressHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLMBProgressHUD.app/LLMBProgressHUD";
+			};
+			name = Debug;
+		};
+		0CDFCE1F20B15E1C00074C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4DH3KVRGU;
+				INFOPLIST_FILE = LLMBProgressHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.text.LLMBProgressHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLMBProgressHUD.app/LLMBProgressHUD";
+			};
+			name = Release;
+		};
+		0CDFCE2120B15E1C00074C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4DH3KVRGU;
+				INFOPLIST_FILE = LLMBProgressHUDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.text.LLMBProgressHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LLMBProgressHUD;
+			};
+			name = Debug;
+		};
+		0CDFCE2220B15E1C00074C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4DH3KVRGU;
+				INFOPLIST_FILE = LLMBProgressHUDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.text.LLMBProgressHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LLMBProgressHUD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CDFCDE920B15E1A00074C1E /* Build configuration list for PBXProject "LLMBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CDFCE1820B15E1C00074C1E /* Debug */,
+				0CDFCE1920B15E1C00074C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CDFCE1A20B15E1C00074C1E /* Build configuration list for PBXNativeTarget "LLMBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CDFCE1B20B15E1C00074C1E /* Debug */,
+				0CDFCE1C20B15E1C00074C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CDFCE1D20B15E1C00074C1E /* Build configuration list for PBXNativeTarget "LLMBProgressHUDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CDFCE1E20B15E1C00074C1E /* Debug */,
+				0CDFCE1F20B15E1C00074C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CDFCE2020B15E1C00074C1E /* Build configuration list for PBXNativeTarget "LLMBProgressHUDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CDFCE2120B15E1C00074C1E /* Debug */,
+				0CDFCE2220B15E1C00074C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CDFCDE620B15E1A00074C1E /* Project object */;
+}
